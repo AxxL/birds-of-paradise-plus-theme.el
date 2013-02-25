@@ -1,3 +1,12 @@
+# Comments on this fork
+
+Repository forked from: [https://github.com/jimeh/birds-of-paradise-plus-theme.el](https://github.com/jimeh/birds-of-paradise-plus-theme.el)
+This fork: [https://github.com/AxxL/birds-of-paradise-plus-theme.el](https://github.com/AxxL/birds-of-paradise-plus-theme.el)
+
+## Changes:
+- added support for NXHTML
+
+
 # Birds of Paradise (Plus)
 
 A Emacs port of Joe Bergantine's light-on-dark [theme][bop] by the same

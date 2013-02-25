@@ -176,7 +176,19 @@
    `(nxml-element-local-name ((t (:foreground ,yellow-3))))
    `(nxml-cdata-section-content ((t (:foreground ,red-3))))
    `(nxml-attribute-local-name ((t (:foreground ,orange-1))))
-   `(nxml-attribute-value ((t (:foreground ,yellow-1)))))
+   `(nxml-attribute-value ((t (:foreground ,yellow-1))))
+   ;; NXHTML added (AxxL)
+   `(nxhtml-comment-content ((t (:inherit 'font-lock-comment-face))))
+   `(nxhtml-tag-delimiter ((t (:foreground ,yellow-3))))
+   `(nxhtml-processing-instruction-target ((t (:foreground ,brown-2))))
+   `(nxhtml-entity-ref-delimiter ((t (:foreground ,blue-2))))
+   `(nxhtml-entity-ref-name ((t (:foreground ,blue-2))))
+   `(nxhtml-element-local-name ((t (:foreground ,yellow-3))))
+   `(nxhtml-cdata-section-content ((t (:foreground ,red-3))))
+   `(nxhtml-attribute-local-name ((t (:foreground ,orange-1))))
+   `(nxhtml-attribute-value ((t (:foreground ,yellow-1)))))
+
+
   (custom-theme-set-variables
    'birds-of-paradise-plus
 
